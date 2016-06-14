@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87C80CC31D0D3AAD000D9F5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C80CC21D0D3AAD000D9F5D /* main.m */; };
+		87C80CC61D0D3AAD000D9F5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C80CC51D0D3AAD000D9F5D /* AppDelegate.m */; };
+		87C80CC91D0D3AAD000D9F5D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C80CC81D0D3AAD000D9F5D /* ViewController.m */; };
+		87C80CCC1D0D3AAD000D9F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C80CCA1D0D3AAD000D9F5D /* Main.storyboard */; };
+		87C80CCE1D0D3AAD000D9F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87C80CCD1D0D3AAD000D9F5D /* Assets.xcassets */; };
+		87C80CD11D0D3AAD000D9F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87C80CCF1D0D3AAD000D9F5D /* LaunchScreen.storyboard */; };
+		87C80CDC1D0D3AAD000D9F5D /* OJLLabelLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C80CDB1D0D3AAD000D9F5D /* OJLLabelLayoutTests.m */; };
+		87C80CE71D0D3AAD000D9F5D /* OJLLabelLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C80CE61D0D3AAD000D9F5D /* OJLLabelLayoutUITests.m */; };
+		87C80CF61D0D3B24000D9F5D /* OJLLabelLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C80CF51D0D3B24000D9F5D /* OJLLabelLayout.m */; };
+		87C80CFA1D0D3B7E000D9F5D /* OJLCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C80CF81D0D3B7E000D9F5D /* OJLCollectionViewCell.m */; };
+		87C80CFB1D0D3B7E000D9F5D /* OJLCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87C80CF91D0D3B7E000D9F5D /* OJLCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87C80CD81D0D3AAD000D9F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87C80CB61D0D3AAD000D9F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87C80CBD1D0D3AAD000D9F5D;
+			remoteInfo = OJLLabelLayout;
+		};
+		87C80CE31D0D3AAD000D9F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87C80CB61D0D3AAD000D9F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87C80CBD1D0D3AAD000D9F5D;
+			remoteInfo = OJLLabelLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87C80CBE1D0D3AAD000D9F5D /* OJLLabelLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OJLLabelLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C80CC21D0D3AAD000D9F5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		87C80CC41D0D3AAD000D9F5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		87C80CC51D0D3AAD000D9F5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		87C80CC71D0D3AAD000D9F5D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		87C80CC81D0D3AAD000D9F5D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		87C80CCB1D0D3AAD000D9F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		87C80CCD1D0D3AAD000D9F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87C80CD01D0D3AAD000D9F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		87C80CD21D0D3AAD000D9F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C80CD71D0D3AAD000D9F5D /* OJLLabelLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OJLLabelLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C80CDB1D0D3AAD000D9F5D /* OJLLabelLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OJLLabelLayoutTests.m; sourceTree = "<group>"; };
+		87C80CDD1D0D3AAD000D9F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C80CE21D0D3AAD000D9F5D /* OJLLabelLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OJLLabelLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87C80CE61D0D3AAD000D9F5D /* OJLLabelLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OJLLabelLayoutUITests.m; sourceTree = "<group>"; };
+		87C80CE81D0D3AAD000D9F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87C80CF41D0D3B24000D9F5D /* OJLLabelLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OJLLabelLayout.h; sourceTree = "<group>"; };
+		87C80CF51D0D3B24000D9F5D /* OJLLabelLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OJLLabelLayout.m; sourceTree = "<group>"; };
+		87C80CF71D0D3B7E000D9F5D /* OJLCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OJLCollectionViewCell.h; sourceTree = "<group>"; };
+		87C80CF81D0D3B7E000D9F5D /* OJLCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OJLCollectionViewCell.m; sourceTree = "<group>"; };
+		87C80CF91D0D3B7E000D9F5D /* OJLCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OJLCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87C80CBB1D0D3AAD000D9F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C80CD41D0D3AAD000D9F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C80CDF1D0D3AAD000D9F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87C80CB51D0D3AAD000D9F5D = {
+			isa = PBXGroup;
+			children = (
+				87C80CC01D0D3AAD000D9F5D /* OJLLabelLayout */,
+				87C80CDA1D0D3AAD000D9F5D /* OJLLabelLayoutTests */,
+				87C80CE51D0D3AAD000D9F5D /* OJLLabelLayoutUITests */,
+				87C80CBF1D0D3AAD000D9F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87C80CBF1D0D3AAD000D9F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87C80CBE1D0D3AAD000D9F5D /* OJLLabelLayout.app */,
+				87C80CD71D0D3AAD000D9F5D /* OJLLabelLayoutTests.xctest */,
+				87C80CE21D0D3AAD000D9F5D /* OJLLabelLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87C80CC01D0D3AAD000D9F5D /* OJLLabelLayout */ = {
+			isa = PBXGroup;
+			children = (
+				87C80CC41D0D3AAD000D9F5D /* AppDelegate.h */,
+				87C80CC51D0D3AAD000D9F5D /* AppDelegate.m */,
+				87C80CC71D0D3AAD000D9F5D /* ViewController.h */,
+				87C80CC81D0D3AAD000D9F5D /* ViewController.m */,
+				87C80CF41D0D3B24000D9F5D /* OJLLabelLayout.h */,
+				87C80CF51D0D3B24000D9F5D /* OJLLabelLayout.m */,
+				87C80CF71D0D3B7E000D9F5D /* OJLCollectionViewCell.h */,
+				87C80CF81D0D3B7E000D9F5D /* OJLCollectionViewCell.m */,
+				87C80CF91D0D3B7E000D9F5D /* OJLCollectionViewCell.xib */,
+				87C80CCA1D0D3AAD000D9F5D /* Main.storyboard */,
+				87C80CCD1D0D3AAD000D9F5D /* Assets.xcassets */,
+				87C80CCF1D0D3AAD000D9F5D /* LaunchScreen.storyboard */,
+				87C80CD21D0D3AAD000D9F5D /* Info.plist */,
+				87C80CC11D0D3AAD000D9F5D /* Supporting Files */,
+			);
+			path = OJLLabelLayout;
+			sourceTree = "<group>";
+		};
+		87C80CC11D0D3AAD000D9F5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				87C80CC21D0D3AAD000D9F5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		87C80CDA1D0D3AAD000D9F5D /* OJLLabelLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				87C80CDB1D0D3AAD000D9F5D /* OJLLabelLayoutTests.m */,
+				87C80CDD1D0D3AAD000D9F5D /* Info.plist */,
+			);
+			path = OJLLabelLayoutTests;
+			sourceTree = "<group>";
+		};
+		87C80CE51D0D3AAD000D9F5D /* OJLLabelLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87C80CE61D0D3AAD000D9F5D /* OJLLabelLayoutUITests.m */,
+				87C80CE81D0D3AAD000D9F5D /* Info.plist */,
+			);
+			path = OJLLabelLayoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87C80CBD1D0D3AAD000D9F5D /* OJLLabelLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C80CEB1D0D3AAD000D9F5D /* Build configuration list for PBXNativeTarget "OJLLabelLayout" */;
+			buildPhases = (
+				87C80CBA1D0D3AAD000D9F5D /* Sources */,
+				87C80CBB1D0D3AAD000D9F5D /* Frameworks */,
+				87C80CBC1D0D3AAD000D9F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OJLLabelLayout;
+			productName = OJLLabelLayout;
+			productReference = 87C80CBE1D0D3AAD000D9F5D /* OJLLabelLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87C80CD61D0D3AAD000D9F5D /* OJLLabelLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C80CEE1D0D3AAD000D9F5D /* Build configuration list for PBXNativeTarget "OJLLabelLayoutTests" */;
+			buildPhases = (
+				87C80CD31D0D3AAD000D9F5D /* Sources */,
+				87C80CD41D0D3AAD000D9F5D /* Frameworks */,
+				87C80CD51D0D3AAD000D9F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87C80CD91D0D3AAD000D9F5D /* PBXTargetDependency */,
+			);
+			name = OJLLabelLayoutTests;
+			productName = OJLLabelLayoutTests;
+			productReference = 87C80CD71D0D3AAD000D9F5D /* OJLLabelLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87C80CE11D0D3AAD000D9F5D /* OJLLabelLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87C80CF11D0D3AAD000D9F5D /* Build configuration list for PBXNativeTarget "OJLLabelLayoutUITests" */;
+			buildPhases = (
+				87C80CDE1D0D3AAD000D9F5D /* Sources */,
+				87C80CDF1D0D3AAD000D9F5D /* Frameworks */,
+				87C80CE01D0D3AAD000D9F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87C80CE41D0D3AAD000D9F5D /* PBXTargetDependency */,
+			);
+			name = OJLLabelLayoutUITests;
+			productName = OJLLabelLayoutUITests;
+			productReference = 87C80CE21D0D3AAD000D9F5D /* OJLLabelLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87C80CB61D0D3AAD000D9F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = oujinlong;
+				TargetAttributes = {
+					87C80CBD1D0D3AAD000D9F5D = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					87C80CD61D0D3AAD000D9F5D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 87C80CBD1D0D3AAD000D9F5D;
+					};
+					87C80CE11D0D3AAD000D9F5D = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 87C80CBD1D0D3AAD000D9F5D;
+					};
+				};
+			};
+			buildConfigurationList = 87C80CB91D0D3AAD000D9F5D /* Build configuration list for PBXProject "OJLLabelLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87C80CB51D0D3AAD000D9F5D;
+			productRefGroup = 87C80CBF1D0D3AAD000D9F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87C80CBD1D0D3AAD000D9F5D /* OJLLabelLayout */,
+				87C80CD61D0D3AAD000D9F5D /* OJLLabelLayoutTests */,
+				87C80CE11D0D3AAD000D9F5D /* OJLLabelLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87C80CBC1D0D3AAD000D9F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C80CD11D0D3AAD000D9F5D /* LaunchScreen.storyboard in Resources */,
+				87C80CCE1D0D3AAD000D9F5D /* Assets.xcassets in Resources */,
+				87C80CFB1D0D3B7E000D9F5D /* OJLCollectionViewCell.xib in Resources */,
+				87C80CCC1D0D3AAD000D9F5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C80CD51D0D3AAD000D9F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C80CE01D0D3AAD000D9F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87C80CBA1D0D3AAD000D9F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C80CC91D0D3AAD000D9F5D /* ViewController.m in Sources */,
+				87C80CC61D0D3AAD000D9F5D /* AppDelegate.m in Sources */,
+				87C80CFA1D0D3B7E000D9F5D /* OJLCollectionViewCell.m in Sources */,
+				87C80CF61D0D3B24000D9F5D /* OJLLabelLayout.m in Sources */,
+				87C80CC31D0D3AAD000D9F5D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C80CD31D0D3AAD000D9F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C80CDC1D0D3AAD000D9F5D /* OJLLabelLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87C80CDE1D0D3AAD000D9F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C80CE71D0D3AAD000D9F5D /* OJLLabelLayoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87C80CD91D0D3AAD000D9F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87C80CBD1D0D3AAD000D9F5D /* OJLLabelLayout */;
+			targetProxy = 87C80CD81D0D3AAD000D9F5D /* PBXContainerItemProxy */;
+		};
+		87C80CE41D0D3AAD000D9F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87C80CBD1D0D3AAD000D9F5D /* OJLLabelLayout */;
+			targetProxy = 87C80CE31D0D3AAD000D9F5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		87C80CCA1D0D3AAD000D9F5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C80CCB1D0D3AAD000D9F5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		87C80CCF1D0D3AAD000D9F5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				87C80CD01D0D3AAD000D9F5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		87C80CE91D0D3AAD000D9F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		87C80CEA1D0D3AAD000D9F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87C80CEC1D0D3AAD000D9F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OJLLabelLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AsiaInfo.OJLLabelLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		87C80CED1D0D3AAD000D9F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OJLLabelLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AsiaInfo.OJLLabelLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		87C80CEF1D0D3AAD000D9F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OJLLabelLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AsiaInfo.OJLLabelLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OJLLabelLayout.app/OJLLabelLayout";
+			};
+			name = Debug;
+		};
+		87C80CF01D0D3AAD000D9F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OJLLabelLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AsiaInfo.OJLLabelLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OJLLabelLayout.app/OJLLabelLayout";
+			};
+			name = Release;
+		};
+		87C80CF21D0D3AAD000D9F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OJLLabelLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AsiaInfo.OJLLabelLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OJLLabelLayout;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		87C80CF31D0D3AAD000D9F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OJLLabelLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = AsiaInfo.OJLLabelLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OJLLabelLayout;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87C80CB91D0D3AAD000D9F5D /* Build configuration list for PBXProject "OJLLabelLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C80CE91D0D3AAD000D9F5D /* Debug */,
+				87C80CEA1D0D3AAD000D9F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87C80CEB1D0D3AAD000D9F5D /* Build configuration list for PBXNativeTarget "OJLLabelLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C80CEC1D0D3AAD000D9F5D /* Debug */,
+				87C80CED1D0D3AAD000D9F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87C80CEE1D0D3AAD000D9F5D /* Build configuration list for PBXNativeTarget "OJLLabelLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C80CEF1D0D3AAD000D9F5D /* Debug */,
+				87C80CF01D0D3AAD000D9F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		87C80CF11D0D3AAD000D9F5D /* Build configuration list for PBXNativeTarget "OJLLabelLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87C80CF21D0D3AAD000D9F5D /* Debug */,
+				87C80CF31D0D3AAD000D9F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 87C80CB61D0D3AAD000D9F5D /* Project object */;
+}

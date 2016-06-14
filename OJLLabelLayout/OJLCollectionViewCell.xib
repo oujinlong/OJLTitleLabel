@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="gTV-IL-0wX" customClass="OJLCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="274" height="161"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="274" height="161"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gNF-8c-Hp6">
+                        <rect key="frame" x="0.0" y="0.0" width="274" height="161"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="0.52608225484560778" green="0.91129818084021375" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="gNF-8c-Hp6" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1F3-C8-JjM"/>
+                <constraint firstAttribute="bottom" secondItem="gNF-8c-Hp6" secondAttribute="bottom" id="Pt6-lq-pBy"/>
+                <constraint firstItem="gNF-8c-Hp6" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="U3d-Yd-kba"/>
+                <constraint firstAttribute="trailing" secondItem="gNF-8c-Hp6" secondAttribute="trailing" id="eAl-sG-7pX"/>
+            </constraints>
+            <size key="customSize" width="274" height="161"/>
+            <connections>
+                <outlet property="label" destination="gNF-8c-Hp6" id="ZW4-O5-C2l"/>
+            </connections>
+            <point key="canvasLocation" x="116" y="203.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
